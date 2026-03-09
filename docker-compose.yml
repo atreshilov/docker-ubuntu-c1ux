@@ -1,0 +1,10 @@
+services:
+  ubuntu24:
+    container_name: ubuntu24-ubuntu-x1ux
+    build: .
+    restart: unless-stopped
+    privileged: true
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./_temp_:/mnt/disk
