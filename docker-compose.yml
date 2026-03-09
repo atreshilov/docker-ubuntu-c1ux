@@ -1,10 +1,12 @@
 services:
-  ubuntu24:
-    container_name: ubuntu24-ubuntu-x1ux
+  ubuntu-c1ux:
+    container_name: c1ux
     build: .
+    image: ubuntu-c1ux:latest
     restart: unless-stopped
     privileged: true
     stdin_open: true
     tty: true
     volumes:
       - ./_temp_:/mnt/disk
+      - ./files:/root/files
