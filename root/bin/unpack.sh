@@ -13,20 +13,6 @@ if [ ! -f "$APK_FILE" ]; then
 	exit 1
 fi
 
-APK_DIR=$(dirname "$APK_FILE")
-
-if [ ! -d "$APK_DIR" ]; then
-	echo "ERROR: Directory '$APK_DIR' does not exist"
-	exit 1
-fi
-
-echo "Change to directory '$APK_DIR' ..."
-
-cd $APK_DIR || {
-    echo "ERROR: Cannot change to directory '$APK_DIR'"
-    exit 1
-}
-
 echo "Install framework-res.apk ..."
 java -jar /root/etc/apktool_2.12.1.jar if /mnt/img/framework/framework-res.apk
 
