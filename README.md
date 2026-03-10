@@ -13,8 +13,11 @@ engineering the Chevy Equinox car media system.
 
 ### Modify the image files
  
+Use [Helper scripts](#helper-scripts-inside-the-container) to modify the image files.
+
 - The image file contents mounted to `/mnt/img` inside the container. Do your work there.
 - Use shared `/mnt/disk` to transfer files between the host and the container. 
+- Use `unpack.sh` and `pack.sh` helper scripts to modify the APK application files. 
 - Start helper script `shrink.sh` script when you finished. But call `unmount.sh` first.
 
 ### Pack the modified image file
@@ -28,6 +31,14 @@ engineering the Chevy Equinox car media system.
 Helper scripts are placed in `/root/bin`. It is included in the `PATH`
 environment variable, so you can run the following scripts from anywhere inside
 the container.
+
+`unpack.sh [apk_file]` 
+Unpack APK application files to `./app-src` directory. This is the first step before
+modifying the APK files
+
+`pack.sh [apk_file]`
+Pack the modified files in `./app-src` directory back to APK application file and sign it with `apksigner`.
+This is the final step after modifying the APK files.
 
 `mount.sh` (called automatically on start container)
 
