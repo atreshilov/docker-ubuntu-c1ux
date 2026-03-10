@@ -27,17 +27,11 @@ cd $APK_DIR || {
     exit 1
 }
 
-echo "Copy apktool_2.12.1.jar and framework-res.apk to '$APK_DIR' ..."
-
-cp /mnt/img/framework/framework-res.apk $APK_DIR
-cp /root/etc/apktool_2.12.1.jar $APK_DIR
-
 echo "Install framework-res.apk ..."
-java -jar apktool_2.12.1.jar if framework-res.apk
+java -jar /root/etc/apktool_2.12.1.jar if /mnt/img/framework/framework-res.apk
 
 echo "Remove app-src ..."
 rm -R -f app-src || true
 
 echo "Unpack $APK_FILE to app-src ..."
-java -jar apktool_2.12.1.jar d -f $APK_FILE -o app-src
-
+java -jar /root/etc/apktool_2.12.1.jar d -f $APK_FILE -o app-src
