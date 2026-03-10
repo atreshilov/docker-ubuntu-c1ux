@@ -16,8 +16,8 @@ fi
 echo "Install framework-res.apk ..."
 java -jar /root/etc/apktool_2.12.1.jar if /mnt/img/framework/framework-res.apk
 
-echo "Remove app-src ..."
+echo "Cleanup ./app-src ..."
 rm -R -f app-src || true
 
-echo "Unpack $APK_FILE to app-src ..."
+echo "Unpack $APK_FILE to ./app-src ..."
 java -jar /root/etc/apktool_2.12.1.jar d -f $APK_FILE -o app-src
