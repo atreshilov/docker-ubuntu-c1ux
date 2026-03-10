@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ipod_medial_list">
+        <item>Ойнату тізімдері</item>
+        <item>Ән</item>
+        <item>Орындаушы</item>
+        <item>Альбом</item>
+        <item>Жанр</item>
+        <item>Қосымша</item>
+    </string-array>
+    <string-array name="media_media_list">
+        <item>Менің құрылғым</item>
+        <item>Ән</item>
+        <item>Орындаушы</item>
+        <item>Альбом</item>
+        <item>Жанр</item>
+        <item>Бейне</item>
+    </string-array>
+    <string-array name="media_mood_list">
+        <item>Толқулы</item>
+        <item>Тыныштық</item>
+        <item>Қуанышты</item>
+        <item>Мұңды</item>
+        <item>Тәтті</item>
+        <item>Емдік</item>
+        <item>Жылы</item>
+        <item>Жалғыз</item>
+        <item>Босаңсыған</item>
+    </string-array>
+    <string-array name="mood_map">
+        <item>Тыныш</item>
+        <item>Жайдары</item>
+        <item>Көтеріңкі</item>
+        <item>Шабытты</item>
+        <item>Толқулы</item>
+        <item>Нәзік</item>
+        <item>Романтикалық</item>
+        <item>Күшті</item>
+        <item>Толғанысты</item>
+        <item>Шулы</item>
+        <item>Сезімтал</item>
+        <item>Күрделі</item>
+        <item>Сезімдік</item>
+        <item>Отты</item>
+        <item>Қуаттандыратын</item>
+        <item>Сағынышты</item>
+        <item>Салқын</item>
+        <item>Аңсаған</item>
+        <item>Шұғыл</item>
+        <item>Қарсылықты</item>
+        <item>Мұңды</item>
+        <item>Тыныш</item>
+        <item>Байсалды</item>
+        <item>Ойлы</item>
+        <item>Агрессивті</item>
+    </string-array>
+    <string-array name="more_list">
+        <item>Подкаст</item>
+        <item>Аудиокітап</item>
+        <item>Композиторлар</item>
+        <item>Apple Music Радио</item>
+    </string-array>
+</resources>

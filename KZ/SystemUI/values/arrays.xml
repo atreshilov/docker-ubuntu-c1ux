@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Сканерленуде…</item>
+        <item>Қосылуда…</item>
+        <item>Аутентификациялануда…</item>
+        <item>IP мекенжай алынуда…</item>
+        <item>Қосылды</item>
+        <item>Тоқтатылды</item>
+        <item>Ажыратылуда…</item>
+        <item>Ажыратылды</item>
+        <item>Сәтсіз аяқталды</item>
+        <item>Бұғатталған</item>
+        <item>Нашар байланыстан уақытша аулақ болу</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Сканерленуде…</item>
+        <item>%1$s қосылуда…</item>
+        <item>%1$s аутентификациялануда…</item>
+        <item>%1$s IP мекенжай алынуда…</item>
+        <item>%1$s қосылды</item>
+        <item>Тоқтатылды</item>
+        <item>%1$s ажыратылуда…</item>
+        <item>Ажыратылды</item>
+        <item>Сәтсіз аяқталды</item>
+        <item>Бұғатталған</item>
+        <item>Нашар байланыстан уақытша аулақ болу</item>
+    </string-array>
+    <integer-array name="batterymeter_color_levels">
+        <item>15</item>
+        <item>100</item>
+    </integer-array>
+    <array name="batterymeter_color_values">
+        <item>@android:color/battery_saver_mode_color</item>
+        <item>#ffffffff</item>
+    </array>
+    <integer-array name="batterymeter_bolt_points">
+        <item>73</item>
+        <item>0</item>
+        <item>392</item>
+        <item>0</item>
+        <item>201</item>
+        <item>259</item>
+        <item>442</item>
+        <item>259</item>
+        <item>4</item>
+        <item>703</item>
+        <item>157</item>
+        <item>334</item>
+        <item>0</item>
+        <item>334</item>
+    </integer-array>
+    <string-array name="volume_stream_titles">
+        <item>Аудио дыбыс деңгейі</item>
+        <item>Телефон дыбыс деңгейі</item>
+        <item>Шұғыл телефон дыбыс деңгейі</item>
+        <item>Дауыс дыбыс деңгейі</item>
+        <item>Қоңырау әуені дыбыс деңгейі</item>
+        <item>Дыбыстық белгілер дыбыс деңгейі</item>
+        <item>TRAFFIC</item>
+    </string-array>
+    <string-array name="lockscreen_num_pad_klondike">
+        <item>+</item>
+        <item></item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alertup_connecting_text">Apple CarPlay қосылуда, күте тұрыңыз...</string>
+    <string name="alertup_no_connect_text">Қолжетімді құрылғы қосылмаған</string>
+    <string name="alertup_no_connect_text_new">Қазіргі уақытта қолжетімді құрылғылар қосылмаған. Егер құрылғы қосылған болса, USB-ны қайта қосып көріңіз.</string>
+    <string name="am">AM</string>
+    <string name="app_name">Apple CarPlay</string>
+    <string name="aux">AUX</string>
+    <string name="btAudio">Bluetooth Аудио</string>
+    <string name="carplay">Carplay</string>
+    <string name="carplay_connected">Apple CarPlay Қосылды</string>
+    <string name="confirm">ОК</string>
+    <string name="fm">FM</string>
+    <string name="in_call_popup_answer">Жауап беру</string>
+    <string name="in_call_popup_hangup">Елемеу</string>
+    <string name="ipod">iPod</string>
+    <string name="kaola_fm">KaoLa FM</string>
+    <string name="media">Менің медиам</string>
+    <string name="open">Бастау</string>
+    <string name="popup_device_connection_button_continue_text">Жалғастыру</string>
+    <string name="popup_device_connection_button_ok_text">Өшіру</string>
+    <string name="popup_device_connection_status_text">Apple CarPlay көлік өндірушісімен қамтамасыз етілмеген, iPhone және оның үшінші тарап қолданбалары мен қызметтері сіздің көлік ақпаратыңызды, соның ішінде көлік орналасқан жерін пайдалануы мүмкін. Apple CarPlay-ді тек қауіпсіз болғанда және жүргізуге кедергі келтірмейтін кезде ғана пайдаланыңыз. Apple CarPlay пайдалану үшін Жалғастыру түймесін басыңыз.</string>
+    <string name="popup_is_run_otherppa_text">%1$s қазіргі уақытта жұмыс істеп тұр, Apple CarPlay іске қосылғанда %2$s аяқталады, жалғастыруды қалайсыз ба?</string>
+    <string name="popup_is_user_carplay_text">Apple CarPlay пайдалану керек пе</string>
+    <string name="popup_select_connect_device">Apple CarPlay іске қосу үшін Apple CarPlay қолдайтын ұялы телефонды қосыңыз.</string>
+    <string name="popup_select_enable_message">Бастау түймесін басқанда, Apple CarPlay USB арқылы ұялы телефонды қосқанда іске қосылады</string>
+    <string name="popup_select_enable_title">Apple CarPlay іске қосу</string>
+    <string name="popup_select_openthe">Жүйе іске қосады</string>
+    <string name="popup_select_thecarpley">" Apple CarPlay"</string>
+    <string name="popup_select_title">Apple CarPlay құрылғысын таңдаңыз</string>
+    <string name="popup_switch_carplay_title">Екі Apple CarPlay құрылғысы табылды</string>
+    <string name="popup_switching_device">"%1$s Apple CarPlay құрылғысын қосу керек пе? Жалғастыруды таңдау ағымдағы %2$s Apple CarPlay-ді аяқтайды және телефон трубка режиміне ауысады."</string>
+    <string name="recovery_class_name">ClassName: %s</string>
+    <string name="recovery_crash_tips_msg">"%s.Қолдану кезінде қате орын алды
+        Қалпына келтіруге немесе қосымшаны қайта іске қосуға тырысыңыз."</string>
+    <string name="recovery_dialog_cancel">Болдырмау</string>
+    <string name="recovery_dialog_sure">Иә</string>
+    <string name="recovery_dialog_tips">Кеңес</string>
+    <string name="recovery_dialog_tips_msg">Бұл барлық деректерді тазартып, қосымшаны қайта іске қосады.</string>
+    <string name="recovery_exception_type">ExceptionType: %s</string>
+    <string name="recovery_line_number">LineNumber: %d</string>
+    <string name="recovery_menu_debug">Түзету</string>
+    <string name="recovery_menu_save">Сақтау</string>
+    <string name="recovery_method_name">MethodName: %s</string>
+    <string name="recovery_recover">Қалпына келтіру</string>
+    <string name="recovery_restart">Қайта іске қосу</string>
+    <string name="recovery_restart_clear">Қайта іске қосу және тазарту</string>
+    <string name="stop_match_button_canel_text">Болдырмау</string>
+    <string name="stop_match_button_ok_text">ОК</string>
+    <string name="wangyi_media">NetEase Музыка</string>
+</resources>
