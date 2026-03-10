@@ -3,7 +3,12 @@
 Ubuntu-based toolbox with `mc`, `apktool`, `apksigner`, etc. for reverse
 engineering the Chevy Equinox car media system.
 
-## Helper scripts
+Prequisites:
+1. Place the sparse image file of the car media system in the following location:
+`[project_directory]/_temp_/my_sparse.img`
+2. Run `./start.sh` in `[project_directory]` to start the container.
+
+## Helper scripts inside the container
 
 Helper scripts are placed in `/root/bin`. `/root/bin` is included in the `PATH`
 environment variable, so you can run the following scripts from anywhere inside
@@ -11,15 +16,15 @@ the container:
 
 `mount.sh` 
 
-Mount external image file `./_temp_/my_sparse.img` to `/mnt/img` inside the container. 
-Remove excessive Chineese APKs from the image file to save space.
+Mount external image file `[project_directory]/_temp_/my_sparse.img` to `/mnt/img` inside
+the container. Remove excessive Chineese APKs from the image file to save space.
 
 `unmount.sh` 
 
 Unmount the `/mnt/img` from inside the container. 
 Compress the image file with `resize2fs`.
 
-## Helper files
+## Helper files inside the container
 
 APK signing keys are placed in `/root/certs`:
 - `./platform.x509.pem` 
