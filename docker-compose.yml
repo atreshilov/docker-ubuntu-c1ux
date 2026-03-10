@@ -12,4 +12,4 @@ services:
       - ./root/.bash_profile:/root/.bash_profile
       - ./root/.bashrc:/root/.bashrc
       - ./root/bin:/root/bin
-      - ./root/certs:/root/certs
+      - ./root/etc:/root/etc

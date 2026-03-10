@@ -18,4 +18,6 @@ if [ ! -d /mnt/img ]; then
 fi
 
 cd /mnt/img/app
-rm -R LiteAPP carlife-release onstarservices-release users-release text-release apa-release calendar-release vpmpro-release infotainment appstore-release nav-release androidauto-release amapauto-debug
+rm -R LiteAPP carlife-release onstarservices-release users-release text-release apa-release calendar-release vpmpro-release infotainment appstore-release nav-release androidauto-release amapauto-debug || true
+
+echo "DONE!"

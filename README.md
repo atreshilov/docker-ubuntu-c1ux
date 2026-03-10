@@ -29,8 +29,13 @@ the container. Remove excessive Chineese APKs from the image file to save space.
 
 `unmount.sh` (called automatically on exit container)
 
-Unmount the `/mnt/img` from inside the container. 
-Compress the image file with `resize2fs`.
+Unmount the `/mnt/img` mounted inside the container.
+
+`compress.sh`
+
+Compress the image file with `resize2fs`. This is the final step before packing the modified image
+file with `tar`. You can run this script after you finish modifying the files in the image file.
+This will reduce the size of the image file and make it easier to pack with `tar`.
 
 ## Helper files inside the container
 

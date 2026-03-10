@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "Unmount /mnt/disk/my_sparse.img from /mnt/img and compress the image ..."
+echo "Unmount /mnt/disk/my_sparse.img from /mnt/img ..."
 
 if [ ! -d /mnt/img ]; then
 	echo "ERROR: /mnt/img is not accessible or already unmounted"
@@ -12,10 +12,4 @@ cd /
 umount /mnt/img
 losetup -d /dev/loop0
 
-if [ ! -f /mnt/disk/my_sparse.img ]; then
-	echo "ERROR: /mnt/disk/my_sparse.img (docker volume mapped to external ./_temp_/my_sparse.img) is not accessible"
-	exit 1
-fi
-
-e2fsck -y -f /mnt/disk/my_sparse.img
-resize2fs -M -f /mnt/disk/my_sparse.img
+echo "DONE!"
