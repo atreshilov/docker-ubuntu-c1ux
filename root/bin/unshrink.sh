@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-if [ -d /mnt/img ]; then
-	echo "ERROR: /mnt/img is still mounted"
+if [ -d /mnt/img/app ]; then
+	echo "ERROR: /mnt/img/app is still mounted"
 	exit 1
 fi
 

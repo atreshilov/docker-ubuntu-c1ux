@@ -12,8 +12,8 @@ losetup -P /dev/loop0 /mnt/disk/my_sparse.img
 mkdir -p /mnt/img
 mount -o rw /dev/loop0 /mnt/img
 
-if [ ! -d /mnt/img ]; then
-	echo "ERROR: /mnt/img is not accessible"
+if [ ! -d /mnt/img/app ]; then
+	echo "ERROR: /mnt/img/app is not accessible"
 	exit 1
 fi
 
