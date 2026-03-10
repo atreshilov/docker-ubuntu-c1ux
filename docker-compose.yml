@@ -9,4 +9,7 @@ services:
     tty: true
     volumes:
       - ./_temp_:/mnt/disk
-      - ./files:/root/files
+      - ./root/.bash_profile:/root/.bash_profile
+      - ./root/.bashrc:/root/.bashrc
+      - ./root/bin:/root/bin
+      - ./root/certs:/root/certs
