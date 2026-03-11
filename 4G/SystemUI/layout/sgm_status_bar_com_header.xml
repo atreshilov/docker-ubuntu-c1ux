@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame1" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/drawer_status_icon_1" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sgm_activity_indicator" />
+            <TextView android:textSize="65.0sp" android:layout_gravity="center" android:id="@id/drawer_status_num_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status_bar_default_temperature" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame2" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/drawer_status_icon_2" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sgm_activity_indicator" />
+            <TextView android:textSize="65.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/drawer_status_num_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame3" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/drawer_status_icon_3" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sgm_wireless_charging" />
+            <TextView android:textSize="65.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/drawer_status_num_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame4" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/drawer_status_icon_4" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_wifi_full_3" />
+            <TextView android:textSize="65.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/drawer_status_num_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame5" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/drawer_status_icon_5" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sgm_unread_msg" />
+            <TextView android:textSize="65.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/drawer_status_num_5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame6" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/drawer_status_icon_6" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/stat_notify_missed_call" />
+            <TextView android:textSize="65.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/drawer_status_num_6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame7" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/drawer_status_icon_7" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mute" />
+            <TextView android:textSize="65.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/drawer_status_num_7" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame8" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/drawer_status_icon_8" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sgm_wifi_ap" />
+            <TextView android:textSize="65.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/drawer_status_num_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame_tbox" android:visibility="gone" android:layout_width="0.0px" android:layout_height="0.0px">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/status_bar_com_header_frame_tbox_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sgm_tbox_4g" />
+                <ImageView android:id="@id/status_bar_com_header_frame_tbox_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0px" android:src="@drawable/ic_sgm_tbox_signal_2" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame9" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/drawer_status_icon_9" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="65.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/drawer_status_num_9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/status_bar_com_header_frame10" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/drawer_status_icon_10" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="65.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/drawer_status_num_10" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

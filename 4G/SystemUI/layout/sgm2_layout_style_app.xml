@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/status_bar_style_app" android:background="@android:color/transparent" android:layout_width="1280.0dip" android:layout_height="110.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="left|top" android:orientation="horizontal" android:id="@id/left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:layout_marginTop="20.0px"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/status_icon_miss_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sgm2_miss_message" />
+        <ImageView android:id="@id/status_icon_miss_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:src="@drawable/ic_sgm2_miss_call" />
+        <ImageView android:id="@id/status_icon_wireless_charging" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:src="@drawable/ic_sgm2_wireless_charging" />
+        <ImageView android:id="@id/status_icon_hot_pot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:src="@drawable/ic_sgm2_wifi_hot_pot" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right|top" android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0px" android:layout_marginRight="273.0px" android:layout_alignParentRight="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:id="@id/status_icon_inc_num" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="right|top" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sgm2_inc_number" />
+            <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="40.0px" android:layout_height="40.0px" android:fontFamily="PATAC_HeiTi" />
+        </FrameLayout>
+        <ImageView android:id="@id/status_icon_mute" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:src="@drawable/ic_sgm2_mute" />
+        <com.android.systemui.statusbar.tablet.SgmRotateView android:id="@id/status_icon_activity_inc" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:src="@drawable/ic_sgm2_activity_inc" app:frameCount="10" app:duration="500" />
+        <ImageView android:id="@id/status_icon_wifi_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:src="@drawable/ic_sgm2_wifi" />
+        <FrameLayout android:id="@id/tbox" android:visibility="gone" android:layout_width="0.0px" android:layout_height="0.0px">
+            <ImageView android:id="@id/tbox_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sgm2_4g" />
+            <ImageView android:id="@id/tbox_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0px" android:src="@drawable/ic_sgm2_tbox_signal_3" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="50.0px" android:textColor="#ffffffff" android:gravity="right" android:id="@id/status_icon_temperature_text" android:background="@drawable/ic_sgm_statusbar_temperature_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0px" android:layout_marginRight="165.0px" android:text="@string/status_bar_default_temperature" android:layout_alignParentRight="true" android:fontFamily="Reguler" />
+    <ImageView android:paddingBottom="22.0px" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="155.0px" android:src="@drawable/ic_sgm_style_line_div" android:layout_alignParentRight="true" />
+    <TextView android:textSize="50.0px" android:textColor="#ffffffff" android:gravity="center" android:id="@id/system_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginRight="19.0dip" android:text="@string/status_bar_default_time" android:layout_alignParentRight="true" />
+</RelativeLayout>
