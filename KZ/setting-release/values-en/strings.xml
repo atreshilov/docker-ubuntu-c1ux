@@ -177,7 +177,7 @@
     <string name="convenient_exit_option_desc">Бұл параметр көліктен шыққанда орындық орнын автоматты түрде қайтарады.</string>
     <string name="crash_avoid_alert_type">Соқтығысқа қарсы ескерту</string>
     <string name="crash_avoid_alert_type_desc">Бұл параметр алдыңғы соқтығыс жүйесінің тәсілін таңдау үшін қолданылады. Қосымша ақпарат алу үшін нұсқаулықты қараңыз.</string>
-    <string name="currentversion">Нұсқасы (тегін!)</string>
+    <string name="currentversion">Тегін нұсқа</string>
     <string name="custom_motion_mode">Спорт режимін теңшеу</string>
     <string name="date">Уақыт / Күн</string>
     <string name="date_day_divider" />
