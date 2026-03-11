@@ -556,9 +556,9 @@
     <string name="system_update_sys_title_0x56">Жаңарту мүмкін емес</string>
     <string name="system_update_sys_title_0x57">Жаңарту сәтсіз аяқталды</string>
     <string name="system_update_system_prompt_message">Жүйе ескерту ақпараты</string>
-    <string name="system_update_terms_confirm">"Осы жаңартуды орнату үшін сіз Шарттар мен Келісімдерді қабылдауыңыз керек. Қабылдағыңыз келсе, 'Келісемін' түймесін басыңыз. Қабылдамасаңыз, 'Болдырмау' түймесін басыңыз."</string>
+    <string name="system_update_terms_confirm">"Осы жаңартуды орнату үшін сіз Шарттар мен Келісімдерді қабылдауыңыз керек. Қабылдағыңыз келсе, \'Келісемін\' түймесін басыңыз. Қабылдамасаңыз, \'Болдырмау\' түймесін басыңыз."</string>
     <string name="system_update_terms_confirm_1">Осы жаңартуды орнату үшін сіз Шарттар мен Келісімдерді қабылдауыңыз керек.</string>
-    <string name="system_update_terms_confirm_2">Қабылдағыңыз келсе, 'Келісемін' түймесін басыңыз. Қабылдамасаңыз, болдырмау түймесін басыңыз.</string>
+    <string name="system_update_terms_confirm_2">Қабылдағыңыз келсе, \'Келісемін\' түймесін басыңыз. Қабылдамасаңыз, болдырмау түймесін басыңыз.</string>
     <string name="system_update_terms_title">Шарттар мен келісім</string>
     <string name="system_update_unable_update">Жаңарту мүмкін емес</string>
     <string name="system_update_update_file_size">Жаңарту файлының өлшемі: %1$s</string>
