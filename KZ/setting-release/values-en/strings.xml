@@ -177,7 +177,7 @@
     <string name="convenient_exit_option_desc">Бұл параметр көліктен шыққанда орындық орнын автоматты түрде қайтарады.</string>
     <string name="crash_avoid_alert_type">Соқтығысқа қарсы ескерту</string>
     <string name="crash_avoid_alert_type_desc">Бұл параметр алдыңғы соқтығыс жүйесінің тәсілін таңдау үшін қолданылады. Қосымша ақпарат алу үшін нұсқаулықты қараңыз.</string>
-    <string name="currentversion">Тегін нұсқа</string>
+    <string name="currentversion">KZ</string>
     <string name="custom_motion_mode">Спорт режимін теңшеу</string>
     <string name="date">Уақыт / Күн</string>
     <string name="date_day_divider" />
@@ -258,8 +258,8 @@
     <string name="key_forgotten_reminder_desc">Бұл параметр кілттің көлікте қалғанын еске салады.</string>
     <string name="lane_change_alarm_system">Жолақ ауыстыру ескертуі</string>
     <string name="lane_change_alarm_system_desc">Бұл параметр пайдаланушыларға жолақ ауыстыру ескерту жүйесін ашуға немесе жабуға мүмкіндік береді. Қосымша ақпарат алу үшін нұсқаулықты қараңыз.</string>
-    <string name="language">Тіл（语言）</string>
-    <string name="language_chinese">中文</string>
+    <string name="language">Тіл</string>
+    <string name="language_chinese">Қоспаңыз!</string>
     <string name="language_english">Қазақ</string>
     <string name="language_notice">Бұл параметр жүйе дисплейінде қолданылатын тілді анықтайды.</string>
     <string name="liaoning">Liaoning</string>
