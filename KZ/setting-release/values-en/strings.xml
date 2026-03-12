@@ -258,8 +258,8 @@
     <string name="key_forgotten_reminder_desc">Бұл параметр кілттің көлікте қалғанын еске салады.</string>
     <string name="lane_change_alarm_system">Жолақ ауыстыру ескертуі</string>
     <string name="lane_change_alarm_system_desc">Бұл параметр пайдаланушыларға жолақ ауыстыру ескерту жүйесін ашуға немесе жабуға мүмкіндік береді. Қосымша ақпарат алу үшін нұсқаулықты қараңыз.</string>
-    <string name="language">Тіл</string>
-    <string name="language_chinese">Қоспаңыз!</string>
+    <string name="language">Тіл (中文)</string>
+    <string name="language_chinese">Қытай</string>
     <string name="language_english">Қазақ</string>
     <string name="language_notice">Бұл параметр жүйе дисплейінде қолданылатын тілді анықтайды.</string>
     <string name="liaoning">Liaoning</string>
