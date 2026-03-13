@@ -13,5 +13,7 @@ fi
 
 e2fsck -y -f /mnt/disk/my_sparse.img
 resize2fs -M -f /mnt/disk/my_sparse.img
+e2fsck -y -f /mnt/disk/my_sparse.img
+resize2fs -M -f /mnt/disk/my_sparse.img
 
 echo "DONE!"
