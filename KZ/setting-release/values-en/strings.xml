@@ -5,7 +5,7 @@
     <string name="account">Пайдаланушы аты</string>
     <string name="active_reminder">Дауыстық белсенді ескерту</string>
     <string name="adaptive_cruise_start_alert">Қозғалу хабарландыруы</string>
-    <string name="adaptive_cruise_start_alert_desc">Бұл параметр алдыңғы көлік қозғалғанда алға жүруді еске салады. �шіру опциясын таңдағанда көлік бұл жағдайда автоматты түрде қозғалады.</string>
+    <string name="adaptive_cruise_start_alert_desc">Бұл параметр алдыңғы көлік қозғалғанда алға жүруді еске салады. Өшіру опциясын таңдағанда көлік бұл жағдайда автоматты түрде қозғалады.</string>
     <string name="add">Қосу</string>
     <string name="add_ap_pwd">Құпия сөз</string>
     <string name="add_hotspot">Басқа желіні қосу</string>

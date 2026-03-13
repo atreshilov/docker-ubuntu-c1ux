@@ -561,7 +561,7 @@
     <string name="bt_phone_default_name">"Diana's iPhone"</string>
     <string name="default_inc_number">3</string>
     <string name="SGMMutePopupTitle">Аудио дыбысы өшірілген</string>
-    <string name="SGMMutePopupMsg">�шіру үшін басып тұрыңыз.</string>
+    <string name="SGMMutePopupMsg">Өшіру үшін басып тұрыңыз.</string>
     <string name="sgm_fmt_yesterday">Кеше</string>
     <string name="sgm_fmt_two_day">2 күн бұрын</string>
     <string name="sgm_fmt_three_day">3 күн бұрын</string>
