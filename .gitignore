@@ -1,5 +1,5 @@
 .idea
 _temp_
-system.img.tar
-system.img.tar.md5sum
-system.md5
+*.img.tar
+*.img.tar.md5sum
+*.md5
