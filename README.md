@@ -1,4 +1,4 @@
-# SAIC-GM 2020-2023 Chevy Equinox Car Media Reverse Engineering Toolbox
+# SAIC-GM 2020-2023 Chevrolet Car Media Reverse Engineering Toolbox
 
 Ubuntu-based toolbox with `mc`, `apktool`, `apksigner`, etc. for reverse
 engineering the Chevy Equinox car media system.
