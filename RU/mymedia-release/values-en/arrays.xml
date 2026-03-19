@@ -1,63 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="ipod_medial_list">
-        <item>Playlists</item>
-        <item>Song</item>
-        <item>Artist</item>
-        <item>Album</item>
-        <item>Genre</item>
-        <item>More</item>
+        <item>Плейлисты</item>
+        <item>Песни</item>
+        <item>Исполнители</item>
+        <item>Альбомы</item>
+        <item>Жанры</item>
+        <item>Ещё</item>
     </string-array>
+
     <string-array name="media_media_list">
-        <item>My Device</item>
-        <item>Song</item>
-        <item>Artist</item>
-        <item>Album</item>
-        <item>Genre</item>
-        <item>Video</item>
+        <item>Моё устройство</item>
+        <item>Песни</item>
+        <item>Исполнители</item>
+        <item>Альбомы</item>
+        <item>Жанры</item>
+        <item>Видео</item>
     </string-array>
+
     <string-array name="media_mood_list">
-        <item>Exciting</item>
-        <item>Peace</item>
-        <item>Joyful</item>
-        <item>Sad</item>
-        <item>Sweet</item>
-        <item>Healing</item>
-        <item>Warm</item>
-        <item>Lonely</item>
-        <item>Relaxed</item>
+        <item>Зажигательное</item>
+        <item>Умиротворение</item>
+        <item>Радостное</item>
+        <item>Грустное</item>
+        <item>Нежное</item>
+        <item>Исцеляющее</item>
+        <item>Тёплое</item>
+        <item>Одинокое</item>
+        <item>Расслабленное</item>
     </string-array>
+
     <string-array name="mood_map">
-        <item>Peaceful</item>
-        <item>Easygoing</item>
-        <item>Upbeat</item>
-        <item>Lively</item>
-        <item>Excited</item>
-        <item>Tender</item>
-        <item>Romantic</item>
-        <item>Empowering</item>
-        <item>Stirring</item>
-        <item>Rowdy</item>
-        <item>Sentimental</item>
-        <item>Sophisticated</item>
-        <item>Sensual</item>
-        <item>Fiery</item>
-        <item>Energizing</item>
-        <item>Melancholy</item>
-        <item>Cool</item>
-        <item>Yearning</item>
-        <item>Urgent</item>
-        <item>Defiant</item>
-        <item>Somber</item>
-        <item>Gritty</item>
-        <item>Serious</item>
-        <item>Brooding</item>
-        <item>Aggressive</item>
+        <item>Мирное</item>
+        <item>Беззаботное</item>
+        <item>Оптимистичное</item>
+        <item>Живое</item>
+        <item>Взволнованное</item>
+        <item>Трепетное</item>
+        <item>Романтичное</item>
+        <item>Вдохновляющее</item>
+        <item>Волнующее</item>
+        <item>Зажигательное</item>
+        <item>Чувствительное</item>
+        <item>Утончённое</item>
+        <item>Чувственное</item>
+        <item>Пламенное</item>
+        <item>Энергичное</item>
+        <item>Меланхоличное</item>
+        <item>Крутое</item>
+        <item>Тоскливое</item>
+        <item>Срочное</item>
+        <item>Вызывающее</item>
+        <item>Мрачное</item>
+        <item>Решительное</item>
+        <item>Серьёзное</item>
+        <item>Тяжёлое</item>
+        <item>Агрессивное</item>
     </string-array>
+
     <string-array name="more_list">
-        <item>Podcast</item>
-        <item>Audiobook</item>
-        <item>Composers</item>
+        <item>Подкасты</item>
+        <item>Аудиокниги</item>
+        <item>Композиторы</item>
         <item>Apple Music Radio</item>
     </string-array>
 </resources>

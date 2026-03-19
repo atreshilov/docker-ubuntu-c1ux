@@ -2,31 +2,31 @@
 <resources>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scanning…</item>
-        <item>Connecting…</item>
-        <item>Authenticating…</item>
-        <item>Obtaining IP address…</item>
-        <item>Connected</item>
-        <item>Suspended</item>
-        <item>Disconnecting…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Temporarily avoiding poor connection</item>
+        <item>Сканирование…</item>
+        <item>Подключение…</item>
+        <item>Аутентификация…</item>
+        <item>Получение IP-адреса…</item>
+        <item>Подключено</item>
+        <item>Приостановлено</item>
+        <item>Отключение…</item>
+        <item>Отключено</item>
+        <item>Ошибка подключения</item>
+        <item>Заблокировано</item>
+        <item>Временно избегается из-за плохого соединения</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Scanning…</item>
-        <item>Connecting to %1$s…</item>
-        <item>Authenticating with %1$s…</item>
-        <item>Obtaining IP address from %1$s…</item>
-        <item>Connected to %1$s</item>
-        <item>Suspended</item>
-        <item>Disconnecting from %1$s…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Temporarily avoiding poor connection</item>
+        <item>Сканирование…</item>
+        <item>Подключение к %1$s…</item>
+        <item>Аутентификация с %1$s…</item>
+        <item>Получение IP-адреса от %1$s…</item>
+        <item>Подключено к %1$s</item>
+        <item>Приостановлено</item>
+        <item>Отключение от %1$s…</item>
+        <item>Отключено</item>
+        <item>Ошибка подключения</item>
+        <item>Заблокировано</item>
+        <item>Временно избегается из-за плохого соединения</item>
     </string-array>
     <integer-array name="batterymeter_color_levels">
         <item>15</item>
@@ -53,13 +53,13 @@
         <item>334</item>
     </integer-array>
     <string-array name="volume_stream_titles">
-        <item>Audio Volume</item>
-        <item>Phone Volume</item>
-        <item>Emergency Phone Volume</item>
-        <item>Voice Volume</item>
-        <item>Ringtone Volume</item>
-        <item>Audio Cues Volume</item>
-        <item>TRAFFIC</item>
+        <item>Громкость аудио</item>
+        <item>Громкость телефона</item>
+        <item>Громкость экстренных вызовов</item>
+        <item>Громкость голоса</item>
+        <item>Громкость звонка</item>
+        <item>Громкость звуковых сигналов</item>
+        <item>ДОРОЖНАЯ ИНФОРМАЦИЯ</item>
     </string-array>
     <string-array name="lockscreen_num_pad_klondike">
         <item>+</item>
