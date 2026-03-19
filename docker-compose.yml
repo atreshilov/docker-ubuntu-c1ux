@@ -9,6 +9,7 @@ services:
     tty: true
     volumes:
       - ./_temp_:/mnt/disk
+      - ./RU:/mnt/RU
       - ./KZ:/mnt/KZ
       - ./4G:/mnt/4G
       - ./root/.bash_profile:/root/.bash_profile

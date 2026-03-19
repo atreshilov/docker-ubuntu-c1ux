@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alertup_connecting_text">Подключение Apple CarPlay, подождите...</string>
+    <string name="alertup_no_connect_text">Нет доступных подключенных устройств</string>
+    <string name="alertup_no_connect_text_new">Сейчас нет доступных подключенных устройств. Если устройство уже подключено, попробуйте переподключить USB.</string>
+    <string name="am">AM</string>
+    <string name="app_name">Apple CarPlay</string>
+    <string name="aux">AUX</string>
+    <string name="btAudio">Bluetooth Audio</string>
+    <string name="carplay">CarPlay</string>
+    <string name="carplay_connected">Apple CarPlay подключен</string>
+    <string name="confirm">ОК</string>
+    <string name="fm">FM</string>
+    <string name="in_call_popup_answer">Ответить</string>
+    <string name="in_call_popup_hangup">Отклонить</string>
+    <string name="ipod">iPod</string>
+    <string name="kaola_fm">KaoLa FM</string>
+    <string name="media">Моя медиатека</string>
+    <string name="open">Запустить</string>
+    <string name="popup_device_connection_button_continue_text">Продолжить</string>
+    <string name="popup_device_connection_button_ok_text">Отключить</string>
+    <string name="popup_device_connection_status_text">Apple CarPlay не предоставляется производителем автомобиля. iPhone, а также его сторонние приложения и сервисы могут использовать данные вашего автомобиля, включая его местоположение. Используйте Apple CarPlay только тогда, когда это безопасно и не отвлекает от вождения. Нажмите «Продолжить», чтобы использовать Apple CarPlay.</string>
+    <string name="popup_is_run_otherppa_text">Сейчас запущено %1$s. При запуске Apple CarPlay приложение %2$s будет закрыто. Продолжить?</string>
+    <string name="popup_select_connect_device">Чтобы запустить Apple CarPlay, подключите телефон с поддержкой Apple CarPlay.</string>
+    <string name="popup_select_enable_message">После нажатия «Запустить» Apple CarPlay будет запускаться при подключении телефона по USB.</string>
+    <string name="popup_select_enable_title">Запуск Apple CarPlay</string>
+    <string name="popup_select_openthe">Система запустит Apple CarPlay для устройства</string>
+    <string name="popup_select_thecarpley" />
+    <string name="popup_select_title">Выберите устройство Apple CarPlay</string>
+    <string name="popup_switch_carplay_title">Обнаружены два устройства Apple CarPlay</string>
+    <string name="popup_switching_device">Подключить устройство Apple CarPlay %1$s? При выборе «Продолжить» текущий Apple CarPlay %2$s будет отключен, а телефон переключится в режим трубки.</string>
+    <string name="recovery_class_name">Класс: %s</string>
+    <string name="recovery_crash_tips_msg">"%s. Во время работы произошла ошибка
+Попробуйте восстановить или перезапустить приложение."</string>
+    <string name="recovery_dialog_cancel">Отмена</string>
+    <string name="recovery_dialog_sure">ОК</string>
+    <string name="recovery_dialog_tips">Внимание</string>
+    <string name="recovery_dialog_tips_msg">Это очистит все данные приложения и перезапустит его.</string>
+    <string name="recovery_exception_type">Тип исключения: %s</string>
+    <string name="recovery_line_number">Номер строки: %d</string>
+    <string name="recovery_menu_debug">Отладка</string>
+    <string name="recovery_menu_save">Сохранить</string>
+    <string name="recovery_method_name">Метод: %s</string>
+    <string name="recovery_recover">Восстановить</string>
+    <string name="recovery_restart">Перезапустить</string>
+    <string name="recovery_restart_clear">Перезапустить и очистить</string>
+    <string name="stop_match_button_canel_text">Отмена</string>
+    <string name="stop_match_button_ok_text">ОК</string>
+    <string name="wangyi_media">NetEase Music</string>
+    <string name="popup_is_user_carplay_text">Использовать Apple CarPlay</string>
+</resources>
